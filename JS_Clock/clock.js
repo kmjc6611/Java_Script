@@ -7,7 +7,7 @@ function getTime() {
     const hours = date.getHours();
     const seconds = date.getSeconds();
     clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
-    //삼항 연산자를 이용해 초단위 0~9까지 앞에 0을 붙여 00, 01, 02 ... 로 출력되게 한다.
+    //삼항 연산자를 이용해  0~9까지 앞에 0을 붙여 00, 01, 02 ... 로 출력되게 한다.
 }
 
 function init() {
